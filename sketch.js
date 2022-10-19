@@ -1,7 +1,17 @@
+let w = 600;
+let h = 600;
+
+
+
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(w,h);
+background (200,0,100)
 }
 
 function draw() {
-  background(125);
+
+ellipse (mouseX, mouseY, 20 ,20);
+
+
 }
+
